@@ -29,7 +29,9 @@
   - hover effect - pointer
 - margin, padding
 
-#### As creator of the program I want to share my mission -[ ] Given a big visible motto
+#### As creator of the program I want to share my mission
+
+-[ ] Given a big visible motto
 
 **HTML**:
 
