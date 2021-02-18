@@ -4,13 +4,27 @@ body {
   margin: 0%;
   padding: 0%;
 }
-.violet-btn {
-  margin: 10px;
-  border-radius: 5px;
-  background-color: rgb(28, 34, 148);
+
+a {
+  text-decoration: none;
   color: white;
-  font-weight: 400;
+}
+a: active {
+  color: white;
+}
+.violet-btn {
+  display: inline-flex;
+  font-size: 12px;
+  line-height: 160%;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: rgb(74, 80, 187);
+  color: white;
   text-transform: uppercase;
+  padding: 10px 20px;
 }
 .arrow-btn {
   display: inline-flex;
