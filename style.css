@@ -67,7 +67,7 @@ b {
   color: rgb(74, 80, 187);
 }
 .motto {
-  background-image: url(./images/motto.jpg);
+  background-image: url("images/motto.jpg");
   background-size: cover;
   background-position-y: 60%;
   background-repeat: no-repeat;
