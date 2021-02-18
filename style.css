@@ -76,6 +76,8 @@ b {
   display: flex;
   padding: 50px 5px;
   position: relative;
+  box-sizing: border-box;
+  margin: 0;
   z-index: 1;
 }
 
@@ -96,6 +98,14 @@ b {
   margin: 0;
 }
 
+.motto-text {
+  display: flex;
+  margin: 60px 0px 30px;
+  align-items: center;
+  flex-direction: column;
+  max-width: 800px;
+  margin: auto;
+}
 .motto h1 {
   font-size: 64px;
   line-height: 120%;
