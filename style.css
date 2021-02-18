@@ -1,0 +1,71 @@
+/*motto*/
+/* *.motto {
+ background-image: url(/images/motto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 10em 5em;
+  z-index: 1;
+}
+*/
+body {
+  margin: 0%;
+  padding: 0%;
+}
+li {
+  display: inline;
+  margin: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: indigo;
+}
+h3 {
+  text-weight: 600;
+  color: indigo;
+}
+.motto {
+  background-image: url(/images/motto.jpg);
+  background-size: cover;
+  background-position-y: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  padding: 50px 5px;
+  position: relative;
+  z-index: 1;
+}
+
+h1 ::before {
+  content: "";
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: inherit;
+}
+.motto ::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+.motto-text {
+  display: flex;
+  margin: 60px 0px 30px;
+  align-items: center;
+  flex-direction: column;
+  max-width: 800px;
+  margin: auto;
+}
+.motto h1 {
+  font-size: 64px;
+  line-height: 120%;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  max-width: none;
+}
