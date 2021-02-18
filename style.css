@@ -4,6 +4,30 @@ body {
   margin: 0%;
   padding: 0%;
 }
+.violet-btn {
+  margin: 10px;
+  border-radius: 5px;
+  background-color: rgb(28, 34, 148);
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.arrow-btn {
+  display: inline-flex;
+  font-size: 12px;
+  line-height: 160%;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+  text-decoration: none;
+  color: rgb(74, 80, 187);
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+  align-items: center;
+}
 li {
   display: inline;
   margin: 5px;
@@ -22,7 +46,10 @@ h2 {
 }
 h3 {
   text-weight: 600;
-  color: indigo;
+  color: black;
+}
+b {
+  color: rgb(74, 80, 187);
 }
 .motto {
   background-image: url(/images/motto.jpg);
