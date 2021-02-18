@@ -29,7 +29,7 @@ h3 {
   color: indigo;
 }
 .motto {
-  background-image: url(..images/motto.jpg);
+  background-image: url(.images/motto.jpg);
   background-size: cover;
   background-position-y: 60%;
   background-repeat: no-repeat;
