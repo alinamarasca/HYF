@@ -71,31 +71,7 @@ b {
   padding: 3px;
   object-fit: contain;
 }
-*/
-body {
-  /* font-family: helvetica, arial, sans-serif;*/
-  /*margin: 1em;*/
-   /*text-align: center;*/
-}
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-.wrapper {
-  width: 100%;
-  margin: 0 auto;
-}
-
-header {
-  height: 100px;
-  background: white;
-  width: 100%;
-  z-index: 12;
-  position: fixed;
-}
 
 /* nav bar */
 
