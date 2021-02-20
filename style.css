@@ -16,13 +16,9 @@ body {
 a {
   text-decoration: none;
 }
-a:hover {
-  border-bottom: blueviolet;
-}
 
 .violet-btn {
-  display: inline-flex;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 160%;
   font-weight: 600;
   font-family: "Work Sans", sans-serif;
@@ -89,19 +85,34 @@ b {
   object-fit: contain;
 }
 
-.menu {
+.navbar {
   font-family: "Work sans", sans-serif;
   color: rgb(127, 127, 127);
-  font-size: 100%;
+  font-size: 16px;
   line-height: 160%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 li {
   display: inline;
+  align-content: space-between;
   margin: 5px;
   padding: 5px;
   text-transform: uppercase;
 }
 
+/*ul a::before {
+  content: "00";
+}*/
+a[data-tool-tip] {
+  position: relative;
+}
+a[data-tool-tip]:hover::after {
+  content: attr(data-tool-tip);
+  display: block;
+  position: absolute;
+}
 .motto {
   background-image: url("images/motto.jpg");
   background-size: cover;
@@ -152,4 +163,8 @@ li {
   color: rgb(255, 255, 255);
   text-align: center;
   max-width: none;
+}
+/*Core Values*/
+.community h3::before {
+  content: url(/images/community.svg);
 }
