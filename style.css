@@ -4,12 +4,13 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 16px;
   font-style: normal;
   vertical-align: baseline;
   text-decoration: none;
   box-sizing: border-box;
-  font-family:"Space mono", monospace;
+  font-family: "Space mono", monospace;
+  line-height: 160%;
 }
 
 a {
@@ -50,8 +51,17 @@ a:active {
   -webkit-box-align: center;
   align-items: center;
 }
+h1 {
+  font-size: 24px;
+  line-height: 140%;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
 h2 {
-  font-size: 20px;
+  font-size: 24px;
   line-height: 140%;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -61,8 +71,13 @@ h2 {
   text-align: left;
 }
 h3 {
-  font-weight: 600;
-  color: black;
+  font-size: 20px;
+  line-height: 140%;
+  margin-bottom: 20px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  text-align: left;
 }
 b {
   color: rgb(74, 80, 187);
@@ -75,9 +90,9 @@ b {
 }
 .menu {
   font-family: "Work sans", sans-serif;
-  color: rgb(127, 127,127);
+  color: rgb(127, 127, 127);
   font-size: 100%;
-  line height: 160%;
+  line-height: 160%;
 }
 li {
   display: inline;
@@ -85,9 +100,7 @@ li {
   padding: 5px;
   text-transform: uppercase;
 }
-.program-summary {
-  
-}
+
 .motto {
   background-image: url("images/motto.jpg");
   background-size: cover;
