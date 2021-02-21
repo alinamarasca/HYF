@@ -195,6 +195,11 @@ li {
   min-height: 300px;
   align-content: flex-end;
 }
+/*Impact*/
+.stats {
+  background-color: rgb(74, 80, 187);
+  color: white;
+}
 /*Core Values*/
 .core-values {
   background-color: rgb(248, 249, 252);
@@ -236,4 +241,8 @@ li {
 .open h3::before {
   content: url(/images/open.svg);
   display: block;
+}
+/*Donation*/
+.donation {
+  background-color: rgb(248, 249, 252);
 }
