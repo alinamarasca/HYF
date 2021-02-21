@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@300;600;700&display=swap");
+/*general default styling*/
 
 body {
   margin: 0;
@@ -25,9 +26,6 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
-.violet-btn a:active {
-  color: rgb(255, 255, 255);
-}
 .violet-btn {
   color: white;
   font-size: 16px;
@@ -46,21 +44,35 @@ p {
   color: white;
 }
 .arrow-btn {
-  display: inline-flex;
+  color: white;
   font-size: 12px;
   line-height: 160%;
   font-weight: 600;
   font-family: "Work Sans", sans-serif;
   text-decoration: none;
-  color: rgb(74, 80, 187);
-  background-color: transparent;
   border: 1px solid transparent;
   border-radius: 4px;
-  box-sizing: border-box;
+  color: rgb(74, 80, 187);
   text-transform: uppercase;
-  -webkit-box-align: center;
-  align-items: center;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: transparent;
 }
+.arrow-btn :hover {
+  font-size: 12px;
+  line-height: 160%;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: rgb(74, 80, 187);
+  text-transform: uppercase;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: rgb(244, 241, 245);
+}
+
 h1 {
   font-size: 24px;
   line-height: 140%;
@@ -179,6 +191,20 @@ li {
   text-align: center;
   max-width: none;
 }
+/*Our Impact*/
+.our-impact{ 
+ 
+  box-shadow: rgb(0 0 0 / 8%) 0px 0px 53px;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+.stats {
+  display: flex;
+  align-items: center;
+  display:inline-block;
+  flex-direction: row;
+  flex-wrap: wrap
+  }
 /*Our Program*/
 .our-program {
   display: flex;
@@ -188,8 +214,9 @@ li {
   width: 100%;
   padding: 10px 0px;
   align-content: space-between;
+  
 }
-.classrom-photo {
+.classroom-photo {
   width: 50%;
   height: 50%;
   min-height: 300px;
@@ -244,5 +271,12 @@ li {
 }
 /*Donation*/
 .donation {
-  background-color: rgb(248, 249, 252);
-}
+  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(248, 249, 252);
+    width: 100%;
+    padding: 10px 0px;
+    align-content: space-between;
+  }
