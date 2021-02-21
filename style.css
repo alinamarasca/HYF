@@ -5,19 +5,31 @@ body {
   padding: 0;
   border: 0;
   font-size: 16px;
+  font-weight: 300;
   font-style: normal;
   vertical-align: baseline;
   text-decoration: none;
   box-sizing: border-box;
   font-family: "Space mono", monospace;
   line-height: 160%;
+  word-break: break-word;
 }
 
 a {
   text-decoration: none;
 }
-
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.violet-btn a:active {
+  color: rgb(255, 255, 255);
+}
 .violet-btn {
+  color: white;
   font-size: 16px;
   line-height: 160%;
   font-weight: 600;
@@ -26,7 +38,6 @@ a {
   border: 1px solid transparent;
   border-radius: 4px;
   background-color: rgb(74, 80, 187);
-  color: white;
   text-transform: uppercase;
   padding: 10px 20px;
   margin-right: 10px;
@@ -87,7 +98,6 @@ b {
 }
 
 .navbar {
-  color: rgb(127, 127, 127);
   font-family: "Work sans", sans-serif;
   font-size: 16px;
   line-height: 160%;
@@ -96,17 +106,16 @@ b {
   justify-content: space-between;
 }
 li {
+  color: rgb(127, 127, 127);
   display: inline-block;
   align-content: space-between;
   margin: 5px;
   padding: 5px;
   text-transform: uppercase;
 }
-
-/*ul a::before {
-  content: "00";
-}*/
-
+.pseudo-underline {
+  color: rgb(127, 127, 127);
+}
 .pseudo-underline:hover:after {
   content: "";
   display: block;
@@ -170,7 +179,61 @@ li {
   text-align: center;
   max-width: none;
 }
+/*Our Program*/
+.our-program {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: rgb(248, 249, 252);
+  width: 100%;
+  padding: 10px 0px;
+  align-content: space-between;
+}
+.classrom-photo {
+  width: 50%;
+  height: 50%;
+  min-height: 300px;
+  align-content: flex-end;
+}
 /*Core Values*/
+.core-values {
+  background-color: rgb(248, 249, 252);
+  padding: 100px;
+}
+.brief-values {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.community {
+  display: block;
+  text-align: left;
+}
 .community h3::before {
   content: url(/images/community.svg);
+  display: block;
+}
+.diversity {
+  display: block;
+  text-align: left;
+}
+.diversity h3::before {
+  content: url(/images/diversity.svg);
+  display: block;
+}
+.commitment {
+  display: block;
+  text-align: left;
+}
+.commitment h3::before {
+  content: url(/images/commitment.svg);
+  display: block;
+}
+.open {
+  display: block;
+  text-align: left;
+}
+.open h3::before {
+  content: url(/images/open.svg);
+  display: block;
 }
