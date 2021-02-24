@@ -228,7 +228,6 @@ li {
   flex: 0 1 20%;
   text-align: justify;
 }
-
 .stats {
   background-color: rgb(74, 80, 187);
   color: white;
@@ -305,4 +304,8 @@ li {
   width: 100%;
   padding: 10px 0px;
   align-content: space-between;
+}
+/*Footer*/
+footer {
+  text-align: center;
 }
