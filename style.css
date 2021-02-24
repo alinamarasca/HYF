@@ -191,46 +191,89 @@ li {
   text-align: center;
   max-width: none;
 }
-/*Our Impact*/
-.our-impact{ 
- 
-  box-shadow: rgb(0 0 0 / 8%) 0px 0px 53px;
-  padding: 50px;
-  margin-bottom: 50px;
-}
-.stats {
-  display: flex;
-  align-items: center;
-  display:inline-block;
-  flex-direction: row;
-  flex-wrap: wrap
-  }
 /*Our Program*/
 .our-program {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  background-color: rgb(248, 249, 252);
+  flex-direction: row;
   width: 100%;
-  padding: 10px 0px;
-  align-content: space-between;
-  
+  padding: 50px;
+  margin-bottom: 50px;
+  align-items: stretch;
 }
-.classroom-photo {
+.our-program > * {
+  flex-basis: 100%;
+}
+.program-summary {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  padding: 0px 50px 0px 0px;
   width: 50%;
-  height: 50%;
-  min-height: 300px;
-  align-content: flex-end;
+  order: 1;
+  text-align: left;
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-width: 470px;
+  vertical-align: baseline;
 }
-/*Impact*/
+.our-program img {
+  display: flex;
+  align-content: flex-end;
+  max-width: 30%;
+  height: 100%;
+  min-height: 400px;
+  padding: 0px 0px 0px 50px;
+  order: 2;
+}
+
+/*Our Impact*/
+.our-impact {
+  max-width: 1280px;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 100%;
+  box-shadow: rgb(0 0 0 / 8%) 0px 0px 53px;
+  flex: 0 0 auto;
+}
+.brief-stats {
+  display: flex;
+  justify-content: center;
+  align-content: stretch;
+  flex: 0 1 20%;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
 .stats {
   background-color: rgb(74, 80, 187);
   color: white;
+  width: 20%;
+  padding: 20px;
+  text-align: left;
+  margin: 30px;
+}
+.impact {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  margin: 0px 0px 50px;
+}
+.impact p {
+  max-width: 800px;
+  vertical-align: baseline;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 /*Core Values*/
 .core-values {
   background-color: rgb(248, 249, 252);
   padding: 100px;
+  display: inline-flex;
+  flex-direction: row;
 }
 .brief-values {
   display: flex;
@@ -271,12 +314,11 @@ li {
 }
 /*Donation*/
 .donation {
-  {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background-color: rgb(248, 249, 252);
-    width: 100%;
-    padding: 10px 0px;
-    align-content: space-between;
-  }
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: rgb(248, 249, 252);
+  width: 100%;
+  padding: 10px 0px;
+  align-content: space-between;
+}
