@@ -334,10 +334,19 @@ li {
   display: inline-flex;
   border: 1px solid rgb(28, 34, 148);
   border-right: 0;
+  cursor: pointer;
 }
 .amount {
   padding: 15px 20px;
   border-right: 1px solid rgb(28, 34, 148);
+}
+*[tabindex]:hover {
+  color: white;
+  background-color: rgb(28, 34, 148);
+}
+*[tabindex]:focus {
+  color: white;
+  background-color: rgb(28, 34, 148);
 }
 /*Footer*/
 footer {
