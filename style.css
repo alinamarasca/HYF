@@ -307,9 +307,10 @@ li {
 }
 /*Donation*/
 .donation {
+  background: rgb(248, 249, 252);
   padding: 10px 20px;
 }
-.options {
+.donation .container {
   display: flex;
   flex: wrap;
   align-items: stretch;
@@ -348,6 +349,19 @@ li {
   color: white;
   background-color: rgb(28, 34, 148);
 }
+.options {
+  width: 100%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid rgb(28, 34, 148);
+  margin: 20px 0px;
+  font-size: 18px;
+  padding: 5px;
+  outline: none;
+  background: transparent;
+}
+
 /*Footer*/
 footer {
   display: flex;
